@@ -1,12 +1,12 @@
 # USC StoryTelling Project
 
-## Project name: We don't know yet
+## Project name: Gun Violence in America
 
-### Topic: Movies and Ratings
+### Topic: Gun Violence
 
-- Data Sources: IMDB and Fandango.
+- Data Sources: 
 - Vizualizations: 
-- 1st view: box office per state: To know how much money people spend on watching movies
-- 2nd view: Top 5 movies: Analyze which state contributes more.
-- 3rd view: Scatter plot total gross vs rating (correlation?)
+- 1st view: Gun Incidents per State
+- 2nd view: Total Amount of Incidents per Year.
+- 3rd view: Number of Incidents by Type.
 
