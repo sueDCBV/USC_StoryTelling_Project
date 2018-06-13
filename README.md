@@ -12,4 +12,4 @@
 * 2nd view: Total Amount of Gun Related Incidents per Year.
 * 3rd view: Number of Gun Related Incidents by Type.
 
-map1.jpg
+![2-BasicMap](map1.jpg)
