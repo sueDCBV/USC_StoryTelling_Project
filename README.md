@@ -13,3 +13,4 @@
 * 3rd view: Number of Gun Related Incidents by Type.
 
 ![2-BasicMap](map1.jpg)
+![2-BasicMap2](map2.jpg)
