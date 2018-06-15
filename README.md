@@ -2,6 +2,16 @@
 
 ## Project name: Gun Violence in America
 
+## Members:
+* [Sue Hellen Del Carpio Bellido Vargas]
+* [Cesar Castrejon]
+* [Roger Tran]
+* [Fahim]
+* [Yoyo Wu]
+
+### Project Proposal: 
+#### Analyze data on gun related incidents in america by location and type.
+
 ### Topic: Gun Violence
 
 #### Data Sources: 
