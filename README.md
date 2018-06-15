@@ -1,7 +1,7 @@
 # USC StoryTelling Project
-
-## Project name: Gun Violence in America
-
+***
+# Gun Violence in America
+***
 ## Members:
 * [Sue Hellen Del Carpio Bellido Vargas]
 * [Cesar Castrejon]
