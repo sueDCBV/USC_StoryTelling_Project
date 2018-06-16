@@ -1,0 +1,33 @@
+use gundata;
+DROP Table IF EXISTS gundata;
+CREATE TABLE gundata(
+`incident_id` int,
+`date` datetime,
+`state` text,
+`city_or_county` text,
+`address` varchar(300),
+`n_killed` int,
+`n_injured` int,
+`incident_url` varchar(300),
+`source_url` varchar(300),
+`incident_url_fields_missing` Boolean,
+`congressional_district` int,
+`guns_stolen` varchar(50),
+`gun_type` varchar(50),
+`incident_characteristics` varchar(300),
+`latitude` float(6,4),
+`location_description` varchar(100),
+`longitude` float(6,4),
+`n_guns_involved` int,
+`notes` varchar(300),
+`participant_age` varchar(300),
+`participant_age_group` varchar(300),
+`participant_gender` varchar(300),
+`participant_name` varchar(300),
+`participant_relationship` varchar(300),
+`participant_status` varchar(300),
+`participant_type` varchar(300),
+`sources` varchar(300),
+`state_house_district` int,
+`state_senate_district` int
+);
