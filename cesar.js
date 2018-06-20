@@ -5,8 +5,8 @@ function handleSubmit() {
   Plotly.d3.event.preventDefault();
 
   // Select the input value from the form
-  var stock = Plotly.d3.select("#stateInput").node().value;
-  console.log();
+  var state = Plotly.d3.select("#stateInput").node().value;
+  console.log(state);
 
   // clear the input value
   Plotly.d3.select("#stateInput").node().value = "";
@@ -17,7 +17,7 @@ function handleSubmit() {
 
 function buildPlot(state) {
   
-  Plotly.d3.json('/sourcedata/overall_gun_deaths_by_year.json', function(error, response) {
+  Plotly.d3.json('../sourcedata/overall_gun_deaths_by_year.json', function(error, response) {
 
     if (error) return console.warn(error);
 	
@@ -29,9 +29,11 @@ function buildPlot(state) {
 		 dict[res["st"]] = {}
 	 }
 	 
-	 dict[res["st"]][ res["Year(Date)"] ] = res;
+	 dict[res["st"]][ res["Year(Date)"] ] = res["Gun_Deaths"];
 
 	});
+	
+	console.log(dict)
 	
     // Grab values from the response json object to build the plots
     var deaths1 = dict[state][2014];
@@ -41,18 +43,16 @@ function buildPlot(state) {
 
     var trace1 = {
       type: "bar",
-      name: name,
       x: deaths1,
-      y: years[1],
+      y: years[0],
       line: {
         color: '#1f77b4'
       }
     };
     var trace2 = {
       type: "bar",
-      name: name,
       x: deaths2,
-      y: years[2],
+      y: years[1],
       line: {
         color: '#17becf'
       }
@@ -60,7 +60,7 @@ function buildPlot(state) {
     var trace3 = {
       type: "bar",
       x: deaths3,
-      y: years[3],
+      y: years[2],
       line: {
         color: '#9467bd'
       }
