@@ -45,7 +45,7 @@ function buildPlot(state) {
       x: deaths1,
       y: years[1],
       line: {
-        color: "#17BECF"
+        color: '#1f77b4'
       }
     };
     var trace2 = {
@@ -54,7 +54,7 @@ function buildPlot(state) {
       x: deaths2,
       y: years[2],
       line: {
-        color: "#17BECF"
+        color: '#17becf'
       }
     };
     var trace3 = {
@@ -62,7 +62,7 @@ function buildPlot(state) {
       x: deaths3,
       y: years[3],
       line: {
-        color: "#17BECF"
+        color: '#9467bd'
       }
     };
 
