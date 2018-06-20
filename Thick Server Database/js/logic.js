@@ -1,5 +1,7 @@
-
-d3.json("https://raw.githubusercontent.com/sueDCBV/USC_StoryTelling_Project/master/sourcedata/Cause_of_Gun_Deaths_by_City_State_Year.json", createMarkers);
+d3.json("sourcedata/Cause_of_Gun_Deaths_by_City_State_YearCA.json", function(response)
+{
+  createMarkers(response)
+});
 
 function createMarkers(response) {
 
@@ -12,15 +14,21 @@ function createMarkers(response) {
     var location = locations[index];
 
     // for each station, create a marker and bind a popup with the location's deaths
-    var crimeMarkers = L.marker([location.lat, location.lon])
+    var crimeMarker = L.marker([location.lat, location.lon])
       .bindPopup("<h3>" + location.Number_of_Deaths + "<h3><h3>city: " + location.city_or_county + "<h3>");
 
     // add the marker to the crimeMarkers array
     crimeMarkers.push(crimeMarker);
   }
 
-  // create a layer group made from the bike markers array, pass it into the createMap function
-  createMap(L.layerGroup(crimeMarkers));
+  // create a layer group made from the crime markers array, pass it into the createMap function
+
+  
+  var crimeLocations = L.layerGroup(crimeMarkers);
+  //geojson.addTo(allYears_layer);
+   
+
+  createMap(crimeLocations);
 }
 
 function createMap(crimeLocations) {
@@ -38,12 +46,12 @@ function createMap(crimeLocations) {
 
   // create an overlayMaps object to hold the crime location layer
   var overlayMaps = {
-    "Bike Stations": bikeStations
+    "Crime Locations": crimeLocations
   };
 
   // Create the map object with options
   var map = L.map("map-id", {
-    center: [41.8781, -87.6298],
+    center: [34.0522, -118.2437],
     zoom: 12,
     layers: [lightmap, crimeLocations]
   });
