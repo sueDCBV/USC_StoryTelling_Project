@@ -1,5 +1,4 @@
-
-// Submit Button handler
+ // Submit Button handler
 function handleSubmit() {
   // Prevent the page from refreshing
   Plotly.d3.event.preventDefault();
@@ -40,44 +39,33 @@ function buildPlot(state) {
     var deaths2 = dict[state][2015];
     var deaths3 = dict[state][2016];
     var years = [2014, 2015, 2016];
-
+	
+	console.log(deaths1)
+	console.log(deaths2)
+	console.log(deaths3)
+	
     var trace1 = {
       type: "bar",
-      x: deaths1,
-      y: years[0],
-      line: {
-        color: '#1f77b4'
-      }
+      x: ['2014', '2015', '2016'],
+      y: [deaths1, deaths2, deaths3],
+	  name: '# of Deaths',
+	  width: .3,
+	  opacity: .75,
     };
     var trace2 = {
-      type: "bar",
-      x: deaths2,
-      y: years[1],
-      line: {
-        color: '#17becf'
-      }
-    };
-    var trace3 = {
-      type: "bar",
-      x: deaths3,
-      y: years[2],
-      line: {
-        color: '#9467bd'
-      }
+      type: "line",
+      x: ['2014', '2015', '2016'],
+      y: [deaths1, deaths2, deaths3],
+	  name: 'Trend in ' + state,
     };
 
-    var data = [trace1, trace2, trace3];
+    var data = [trace1, trace2];
 
     var layout = {
-      title: 'Deaths Per Year by State',
-      xaxis: {
-        range: [2013, 2017],
-        type: "linear"
-      },
-      yaxis: {
-        autorange: true,
-        type: "linear"
-      }
+      title: 'Deaths Per Year in ' + state,
+      xaxis: { title: "Year"},
+      yaxis: { title: "Number of Gun Related Deaths"}
+ 
     };
 
     Plotly.newPlot("plot", data, layout);
