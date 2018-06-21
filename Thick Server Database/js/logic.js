@@ -1,4 +1,4 @@
-d3.json("sourcedata/Cause_of_Gun_Deaths_by_City_State_YearCA.json", function(response)
+d3.json("sourcedata/Cause_of_Gun_Deaths_by_City_State_Year2017ca.json", function(response)
 {
   createMarkers(response)
 });
@@ -21,7 +21,7 @@ function createMarkers(response) {
     crimeMarkers.push(crimeMarker);
   }
 
-  // create a layer group made from the crime markers array, pass it into the createMap function
+  // create a layer group made from the bike markers array, pass it into the createMap function
 
   
   var crimeLocations = L.layerGroup(crimeMarkers);
@@ -51,7 +51,7 @@ function createMap(crimeLocations) {
 
   // Create the map object with options
   var map = L.map("map-id", {
-    center: [34.0522, -118.2437],
+    center: [41.8781, -87.6298],
     zoom: 12,
     layers: [lightmap, crimeLocations]
   });
