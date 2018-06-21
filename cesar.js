@@ -57,14 +57,69 @@ function buildPlot(state) {
       x: ['2014', '2015', '2016'],
       y: [deaths1, deaths2, deaths3],
 	  name: 'Trend in ' + state,
+	  line: {
+		dash: 'dashdot',
+		width: 4
+	  },
     };
 
     var data = [trace1, trace2];
 
     var layout = {
-      title: 'Deaths Per Year in ' + state,
-      xaxis: { title: "Year"},
-      yaxis: { title: "Number of Gun Related Deaths"}
+      xaxis: {
+	      showline: true,
+		  showgrid: false,
+		  showticklabels: true,
+		  linecolor: 'rgb(204,204,204)',
+		  linewidth: 2,
+		  autotick: false,
+		  ticks: 'outside',
+		  tickcolor: 'rgb(204,204,204)',
+		  tickwidth: 2,
+		  ticklen: 5,
+		  tickfont: {
+          family: 'Arial',
+		  size: 12,
+          color: 'rgb(82, 82, 82)'
+	  }},
+      yaxis: { title: "Number of Gun Related Deaths",
+	  showgrid: true,
+	  zeroline: false,
+      showline: false,
+      showticklabels: false},
+	  
+	    annotations: [
+		{
+		  xref: 'paper',
+		  yref: 'paper',
+		  x: 0.0,
+		  y: 1.05,
+		  xanchor: 'left',
+		  yanchor: 'bottom',
+		  text: 'Deaths Per Year in ' + state,
+		  font:{
+			family: 'Arial',
+			size: 30,
+			color: 'rgb(37,37,37)'
+		  },
+		  showarrow: false
+		},
+		{
+		  xref: 'paper',
+		  yref: 'paper',
+		  x: 0.5,
+		  y: -0.1,
+		  xanchor: 'center',
+		  yanchor: 'top',
+		  text: 'Year',
+		  showarrow: false,
+		  font: {
+			family: 'Arial',
+			size: 12,
+			color: 'rgb(150,150,150)'
+		  }
+		}
+	  ]
  
     };
 
