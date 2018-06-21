@@ -17,7 +17,7 @@ function handleSubmit() {
 
 function buildPlot(state) {
   
-  Plotly.d3.json('../sourcedata/overall_gun_deaths_by_year.json', function(error, response) {
+  Plotly.d3.json('overall_gun_deaths_by_year.json', function(error, response) {
 
     if (error) return console.warn(error);
 	
@@ -69,9 +69,9 @@ function buildPlot(state) {
     var data = [trace1, trace2, trace3];
 
     var layout = {
-      title: 'Deaths Per State by Year',
+      title: 'Deaths Per Year by State',
       xaxis: {
-        autorange: true,
+        range: [2013, 2017],
         type: "linear"
       },
       yaxis: {
