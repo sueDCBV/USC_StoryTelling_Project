@@ -2,7 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b77e0ebf-1dfa-4825-abdb-58608ea50d51" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change beforePath="$PROJECT_DIR$/Cause_of_Gun_Deaths_by_City_State_Year.json" afterPath="$PROJECT_DIR$/Cause_of_Gun_Deaths_by_City_State_Year.json" />
+      <change beforePath="$PROJECT_DIR$/Connect to Database.ipynb" afterPath="$PROJECT_DIR$/Connect to Database.ipynb" />
+      <change beforePath="$PROJECT_DIR$/gun_deaths in top 5 states.json" afterPath="$PROJECT_DIR$/gun_deaths in top 5 states.json" />
+      <change beforePath="$PROJECT_DIR$/overall_gun_deaths_by_year.json" afterPath="$PROJECT_DIR$/overall_gun_deaths_by_year.json" />
+      <change beforePath="$PROJECT_DIR$/project db schema.sql" afterPath="$PROJECT_DIR$/project db schema.sql" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -23,7 +27,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Connect to Database.ipynb" pinned="false" current-in-tab="false">
+      <file leaf-file-name="Connect to Database.ipynb" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Connect to Database.ipynb">
           <provider selected="true" editor-type-id="ipnb-editor">
             <state>
@@ -42,7 +46,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="amazon table extract.ipynb" pinned="false" current-in-tab="true">
+      <file leaf-file-name="amazon table extract.ipynb" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/../../../../UBT Work/Amazon_pdf_extract/amazon table extract.ipynb">
           <provider selected="true" editor-type-id="ipnb-editor">
             <state>
@@ -88,8 +92,8 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/config.py" />
-        <option value="$PROJECT_DIR$/Connect to Database.ipynb" />
         <option value="$APPLICATION_CONFIG_DIR$/scratches/amazonpdftblextract.ipynb" />
+        <option value="$PROJECT_DIR$/Connect to Database.ipynb" />
       </list>
     </option>
   </component>
@@ -294,13 +298,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Connect to Database.ipynb">
-      <provider selected="true" editor-type-id="ipnb-editor">
-        <state>
-          <selected id="9" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/../../../../UBT Work/Amazon_pdf_extract/scratch_3.py" />
     <entry file="file://$APPLICATION_CONFIG_DIR$/scratches/amazonpdftblextract.ipynb">
       <provider selected="true" editor-type-id="text-editor">
@@ -321,6 +318,13 @@
       <provider selected="true" editor-type-id="ipnb-editor">
         <state>
           <selected id="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Connect to Database.ipynb">
+      <provider selected="true" editor-type-id="ipnb-editor">
+        <state>
+          <selected id="9" />
         </state>
       </provider>
     </entry>
