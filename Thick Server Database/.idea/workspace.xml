@@ -3,9 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="b77e0ebf-1dfa-4825-abdb-58608ea50d51" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/Connect to Database.ipynb" afterPath="$PROJECT_DIR$/Connect to Database.ipynb" />
-      <change beforePath="$PROJECT_DIR$/Nationwide_gun_deaths.json" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/overall_gun_deaths_by_year.json" afterPath="$PROJECT_DIR$/overall_gun_deaths_by_year.json" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -35,11 +32,30 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="gun_deaths in top 5 states.json" pinned="false" current-in-tab="true">
+      <file leaf-file-name="scratch_3.py" pinned="false" current-in-tab="false">
+        <entry file="file://$APPLICATION_CONFIG_DIR$/scratches/scratch_3.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="amazon table extract.ipynb" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/../../../../UBT Work/Amazon_pdf_extract/amazon table extract.ipynb">
+          <provider selected="true" editor-type-id="ipnb-editor">
+            <state>
+              <selected id="0" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="gun_deaths in top 5 states.json" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/gun_deaths in top 5 states.json">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="231">
-              <caret line="0" column="990" lean-forward="true" selection-start-line="0" selection-start-column="990" selection-end-line="0" selection-end-column="990" />
+            <state relative-caret-position="0">
+              <caret line="0" column="990" lean-forward="false" selection-start-line="0" selection-start-column="990" selection-end-line="0" selection-end-column="990" />
               <folding />
             </state>
           </provider>
@@ -48,7 +64,7 @@
       <file leaf-file-name="Cause_of_Gun_Deaths_by_City_State_Year.json" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Cause_of_Gun_Deaths_by_City_State_Year.json">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="429">
+            <state relative-caret-position="33">
               <caret line="0" column="1900" lean-forward="false" selection-start-line="0" selection-start-column="1900" selection-end-line="0" selection-end-column="1900" />
               <folding />
             </state>
@@ -61,6 +77,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Python Script" />
+        <option value="Jupyter Notebook" />
       </list>
     </option>
   </component>
@@ -72,6 +89,7 @@
       <list>
         <option value="$PROJECT_DIR$/config.py" />
         <option value="$PROJECT_DIR$/Connect to Database.ipynb" />
+        <option value="$APPLICATION_CONFIG_DIR$/scratches/amazonpdftblextract.ipynb" />
       </list>
     </option>
   </component>
@@ -114,6 +132,13 @@
   </component>
   <component name="PropertiesComponent">
     <property name="settings.editor.selected.configurable" value="configurable.group.appearance" />
+    <property name="com.intellij.ide.scratch.LRUPopupBuilder$2/Languages" value="Python" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../../../UBT Work/Amazon_pdf_extract/amazon table extract.ipynb" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\roger\Desktop\UBT Work\Amazon_pdf_extract" />
+    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -182,14 +207,53 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Nationwide_gun_deaths.json">
+    <entry file="file://$APPLICATION_CONFIG_DIR$/scratches/scratch_3.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="7887">
-          <caret line="0" column="239041" lean-forward="false" selection-start-line="0" selection-start-column="239041" selection-end-line="0" selection-end-column="239041" />
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/Connect to Database.ipynb">
+      <provider selected="true" editor-type-id="ipnb-editor">
+        <state>
+          <selected id="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gun_deaths in top 5 states.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="990" lean-forward="false" selection-start-line="0" selection-start-column="990" selection-end-line="0" selection-end-column="990" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Cause_of_Gun_Deaths_by_City_State_Year.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="33">
+          <caret line="0" column="1900" lean-forward="false" selection-start-line="0" selection-start-column="1900" selection-end-line="0" selection-end-column="1900" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../../../UBT Work/Amazon_pdf_extract/amazon table extract.ipynb">
+      <provider selected="true" editor-type-id="ipnb-editor">
+        <state>
+          <selected id="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="33">
+          <caret line="1" column="25" lean-forward="false" selection-start-line="1" selection-start-column="25" selection-end-line="1" selection-end-column="25" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Nationwide_gun_deaths.json" />
     <entry file="file://$PROJECT_DIR$/Cause_of_Gun_Deaths_by_City_State_Year.json">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -213,17 +277,18 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Nationwide_gun_deaths.json">
+    <entry file="file://$PROJECT_DIR$/Nationwide_gun_deaths.json" />
+    <entry file="file://$PROJECT_DIR$/gun_deaths in top 5 states.json">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="290">
-          <caret line="0" column="554457" lean-forward="false" selection-start-line="0" selection-start-column="554457" selection-end-line="0" selection-end-column="554457" />
+        <state relative-caret-position="0">
+          <caret line="0" column="990" lean-forward="false" selection-start-line="0" selection-start-column="990" selection-end-line="0" selection-end-column="990" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Cause_of_Gun_Deaths_by_City_State_Year.json">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="429">
+        <state relative-caret-position="33">
           <caret line="0" column="1900" lean-forward="false" selection-start-line="0" selection-start-column="1900" selection-end-line="0" selection-end-column="1900" />
           <folding />
         </state>
@@ -236,11 +301,26 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/gun_deaths in top 5 states.json">
+    <entry file="file://$PROJECT_DIR$/../../../../UBT Work/Amazon_pdf_extract/scratch_3.py" />
+    <entry file="file://$APPLICATION_CONFIG_DIR$/scratches/amazonpdftblextract.ipynb">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="231">
-          <caret line="0" column="990" lean-forward="true" selection-start-line="0" selection-start-column="990" selection-end-line="0" selection-end-column="990" />
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_CONFIG_DIR$/scratches/scratch_3.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../../../UBT Work/Amazon_pdf_extract/amazon table extract.ipynb">
+      <provider selected="true" editor-type-id="ipnb-editor">
+        <state>
+          <selected id="0" />
         </state>
       </provider>
     </entry>
