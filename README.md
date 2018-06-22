@@ -1,5 +1,3 @@
-# USC StoryTelling Project
-***
 # Gun Violence in America
 ***
 ## Members:
