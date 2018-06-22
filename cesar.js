@@ -48,7 +48,7 @@ function buildPlot(state) {
       type: "bar",
       x: ['2014', '2015', '2016'],
       y: [deaths1, deaths2, deaths3],
-	  name: '# of Deaths',
+	  name: 'Number of Deaths',
 	  width: .3,
 	  opacity: .75,
     };
