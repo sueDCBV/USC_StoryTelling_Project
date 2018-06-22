@@ -96,7 +96,7 @@ function buildPlot(state) {
 		  y: 1.05,
 		  xanchor: 'left',
 		  yanchor: 'bottom',
-		  text: 'Deaths Per Year in ' + state,
+		  text: 'Number of Deaths by Year in ' + state,
 		  font:{
 			family: 'Arial',
 			size: 30,
