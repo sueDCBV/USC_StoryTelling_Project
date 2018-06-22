@@ -23,4 +23,4 @@
 * 3rd view: Number of Gun Related Incidents by Type.
 
 ![2-BasicMap1](images/states_map.JPG)
-![2-BasicMap2](map2.jpg)
+![2-BasicMap2](images/california_cluster_map.JPG)
