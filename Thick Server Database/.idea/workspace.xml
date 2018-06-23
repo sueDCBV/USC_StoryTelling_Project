@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="b77e0ebf-1dfa-4825-abdb-58608ea50d51" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/Connect to Database.ipynb" afterPath="$PROJECT_DIR$/Connect to Database.ipynb" />
-    </list>
+    <list default="true" id="b77e0ebf-1dfa-4825-abdb-58608ea50d51" name="Default" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -27,7 +25,7 @@
         <entry file="file://$PROJECT_DIR$/Connect to Database.ipynb">
           <provider selected="true" editor-type-id="ipnb-editor">
             <state>
-              <selected id="7" />
+              <selected id="5" />
             </state>
           </provider>
         </entry>
