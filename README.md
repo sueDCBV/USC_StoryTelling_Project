@@ -27,3 +27,5 @@ This map includes a cluster of markers. Each marker represents the exact positio
 ![2-BasicMap2](images/california_cluster_map.JPG)
 
 * 3rd view: Number of Gun Related Incidents by Type.
+
+![Visualization](images/DPY.jpg)
